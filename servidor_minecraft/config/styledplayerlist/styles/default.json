@@ -1,0 +1,23 @@
+{
+  "style_name": "Atlas Adventure Style",
+  "update_tick_time": 2,
+  "list_header": [
+    "",
+    "<bold><gradient:#55FFFF:#0055FF:0.1>Atlas Adventure</gradient></bold>",
+    "<gray>Explorando nuevos horizontes</gray>",
+    "",
+    "<color:#55FFFF><strikethrough>        </strikethrough>[ </color><white>%server:online%/%server:max_players%</white><color:#0055FF> ]<strikethrough>        </strikethrough></color>",
+    ""
+  ],
+  "list_footer": [
+    "",
+    "<gradient:#55FFFF:#0055FF><strikethrough>                                        </strikethrough></gradient>",
+    "",
+    "<gray>Ping: <aqua>%player:ping%ms</aqua> <dark_gray>|</dark_gray> <gray>TPS: %server:tps_colored%",
+    "<gray>Mundo: <aqua>%world:name%</aqua>",
+    "",
+    "<italic><aqua>¡Disfruta de tu estancia!</aqua></italic>",
+    ""
+  ],
+  "hidden_in_commands": false
+}

@@ -1,0 +1,20 @@
+{
+  "config_version": 2,
+  "__comment": "Before changing anything, see https://github.com/Patbox/StyledPlayerList#configuration",
+  "default_style": "default",
+  "messages": {
+    "switch": "Tu estilo de lista ha sido cambiado a: <bold><gradient:#55FFFF:#0055FF>${style}</gradient></bold>",
+    "unknown": "<red>¡Ese estilo no existe!</red>",
+    "no_permission": "<red>¡No tienes permiso para hacer eso!</red>"
+  },
+  "player": {
+    "modify_name": true,
+    "passthrough": false,
+    "hidden": false,
+    "format": "%player:displayname%",
+    "update_on_chat_message": true,
+    "update_tick_time": 20,
+    "styles": []
+  },
+  "client_show_in_singleplayer": true
+}
